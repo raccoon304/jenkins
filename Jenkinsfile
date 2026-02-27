@@ -8,7 +8,7 @@ pipeline {
         CONTAINER_NAME = "spring-jenkins"
     }
     
-    tlls {
+    tools {
 		jdk 'jdk17'
 	}
 
