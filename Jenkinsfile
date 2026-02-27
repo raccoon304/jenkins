@@ -5,7 +5,6 @@ pipeline {
     environment {
         SERVER_IP   = "98.84.141.91"
         DOCKER_IMAGE = "raccoon304/test"
-        SERVER_IP = "98.84.141.91"
         CONTAINER_NAME = "spring-jenkins"
     }
     
