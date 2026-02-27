@@ -4,10 +4,14 @@ pipeline {
     // 전역변수 => ${SERVER_IP}
     environment {
         SERVER_IP   = "98.84.141.91"
-        SERVER_USER = "ubuntu"
-        APP_DIR     = "~/app"
-        JAR_NAME    = "jenkins-0.0.1-SNAPSHOT.jar"
+        DOCKER_IMAGE = "raccoon304/test"
+        SERVER_IP = "98.84.141.91"
+        CONTAINER_NAME = "spring-jenkins"
     }
+    
+    tlls {
+		jdk 'jdk17'
+	}
 
     stages {
 
