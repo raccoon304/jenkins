@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "raccoon304/test"
+        DOCKER_IMAGE = "raccoon304/spring-jenkins"
         SERVER_IP = "98.84.141.91"
         APP_DIR = "~/app"
     }
